@@ -1,2 +1,4 @@
 # VScode-Settings
-tj/n ESLint, Prettier
+tj/n, ESLint, Prettier, typescript
+
+
