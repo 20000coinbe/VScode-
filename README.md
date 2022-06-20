@@ -79,9 +79,9 @@ npm install -D eslint
 ```
 &nbsp;&nbsp; 3-1. 
 ```
-install -D eslint-config-airbnb-base, eslint-plugin-import
-install -D eslint-prettier
-install -D eslint-plugin-node
+npm install -D eslint-config-airbnb-base, eslint-plugin-import
+npm install -D eslint-prettier
+npm install -D eslint-plugin-node
 ```
 &nbsp;&nbsp; 3-2. ESLint 환경설정
 ```
@@ -96,5 +96,8 @@ module.exports = {
 --------------------
 #### 4. Install TypeScript
 ```
-
+npm install -D typescript
 ```
+&nbsp;&nbsp; 4-1.
+
+&nbsp;&nbsp; 4-2.
