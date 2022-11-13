@@ -98,6 +98,21 @@ module.exports = {
 ```
 npm install -D typescript
 ```
-&nbsp;&nbsp; 4-1. 
+&nbsp;&nbsp; 4-1. node 타입 설치
+```
+npm install -D @types/node
+```
 
-&nbsp;&nbsp; 4-2.
+&nbsp;&nbsp; 4-2. jsconfig.json 설정
+```
+{
+  // JS기반의 프로젝트이기 때문에 jsconfig.json에 설정
+  // typescript의 타입 checking기능만을 js에서 사용할 설정
+  "compilerOptions": {
+    "strict": true
+  },
+  "include": [
+    "/src/*/**"
+  ]
+}
+```
