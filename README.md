@@ -112,7 +112,8 @@ npm install -D @types/node
     "strict": true
   },
   "include": [
-    "/src/*/**"
+    "/src/**/*"
   ]
 }
 ```
+&nbsp;&nbsp; 4-3. Implicit Project Config: Check JS <- 설정 
