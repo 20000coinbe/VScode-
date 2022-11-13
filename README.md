@@ -87,7 +87,7 @@ npm install -D eslint-plugin-node
 ```
 .eslintrc.js 생성
 module.exports = {
-  extends: ["airbnb-base", "prettier"]
+  extends: ["airbnb-base", "prettier"] // 항상 prettier가 배열의 마지막에 오도록 한다
 }
 ```
 &nbsp;&nbsp; 3-3. vsCode ESLint Extension 설치
@@ -98,6 +98,6 @@ module.exports = {
 ```
 npm install -D typescript
 ```
-&nbsp;&nbsp; 4-1.
+&nbsp;&nbsp; 4-1. 
 
 &nbsp;&nbsp; 4-2.
